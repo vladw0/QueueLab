@@ -139,7 +139,7 @@ TEST(QueueArrayTest, StreamOutput)
     EXPECT_EQ(oss.str(), "QueueArray: 11 22 ");
 }
 
-//TEST(QueueArrayTest, StreamInput)
+/*TEST(QueueArrayTest, StreamInput)
 {
     QueueArray<int> q(5);
     std::istringstream iss("3 6 9");
@@ -148,7 +148,7 @@ TEST(QueueArrayTest, StreamOutput)
     EXPECT_EQ(q.Get(), 3);
     EXPECT_EQ(q.Get(), 6);
     EXPECT_EQ(q.Get(), 9);
-}
+}*/
 
 //QueueList
 
